@@ -70,3 +70,230 @@ https://docs.google.com/document/d/1bXBO7FFVSXiE5CwlVJwobjQiokGVwQ9dZ05z7R6Xghg/
 
 
 # Progopdrachten M6
+
+
+
+## Opdracht  10 Class diagram Towerdefense
+
+```mermaid
+
+classDiagram
+
+class Bullet {
+    - int damage
+    - float lifeTime
+    + Start()
+    + OnTriggerEnter2D(collider)
+}
+
+class Enemy {
+    - int health
+    - int cashReward
+    - spriteRenderers
+    - Transform visuals
+    + TakeDamage(dmg)
+    + KillEnemy()
+    + FlashEffect()
+}
+
+Bullet --> Enemy : interacts with
+
+
+class EnemySpawner {
+    - enemyTypes[]
+    - baseEnemies
+    - enemiesPerSecond
+    - maxWaves
+    - currentWave
+    + SpawnEnemy()
+    + EnemyDestroyed()
+    + IsAllWavesDone()
+}
+
+class EnemyType {
+    - GameObject prefab
+    - spawnWeight
+    - minSpeed
+    - maxSpeed
+    - weightIncreasePerWave
+}
+
+EnemySpawner --> EnemyType : spawns
+
+
+class Enemymovement {
+    - Rigidbody2D rb
+    - float moveSpeed
+    - int health
+    - target
+    - PathIndex
+    + TakeDamage(dmg)
+}
+
+class StraightEnemy {
+    - Rigidbody2D rb
+    - moveSpeed
+    - target
+    - pathIndex
+    + SetSpeed()
+}
+
+class ZigZagEnemy {
+    - zigzagAmplitude
+    - zigzagFrequency
+    - float time
+    + SetSpeed()
+}
+
+StraightEnemy --> Enemymovement
+ZigZagEnemy --> Enemymovement
+
+
+class Turret {
+    - range
+    - fireRate
+    - bulletPrefab
+    - firePoint
+    - bulletSpeed
+    - turnSpeed
+    - target
+    + Update()
+    + Shoot()
+    + EnemyLockOn()
+}
+
+Turret --> Bullet : shoots
+
+
+class PlayerShoot {
+    - shootingPoint
+    - bulletPrefab
+    - bulletSpeed
+    - bulletCooldown
+    - spreadAngle
+    + Shoot(dir)
+    + ApplySpread(dir)
+    + GetMouseDirection()
+}
+
+PlayerShoot --> Bullet : spawns
+
+
+class PopupSpawner {
+    - popupPrefab
+    - Transform player
+    + SpawnPopup(msg)
+}
+
+class PopupText {
+    - TMP_Text text
+    + Show(msg)
+}
+
+PopupSpawner --> PopupText
+
+
+class ScreenFlash {
+    - Image flashImg
+    + Flash()
+}
+
+class UIManager {
+    - Image redPanel
+    - popupPrefab
+    - playerTransform
+    + RedFlash()
+    + ShowPopup(text)
+    + Fade()
+    + Slide()
+}
+
+
+class CashSystem {
+    - int cashAmount
+    - TMP cashText
+    + AddCash()
+    + SpendCash()
+}
+
+
+class TurretBuildManager {
+    + PlaceTurret(prefab,pos)
+}
+
+class TurretDragUI {
+    - turretPrefab
+    - turretCost
+    + OnBeginDrag()
+    + OnDrag()
+    + OnEndDrag()
+}
+
+TurretDragUI --> TurretBuildManager : uses
+
+
+class SoundManager {
+    - sfxSource
+    - musicSource
+    - clips
+    + PlayShoot()
+    + PlayPlaceTower()
+    + PlayBackgroundMusic()
+}
+
+
+class LevelManager {
+    - lives
+    - Path[]
+    - Healthbar
+    - gameOverUI
+    + LoseLife()
+    + GameOver()
+    + RestartLevel()
+    + LoadMainMenu()
+}
+
+
+class CamShake {
+    + Shake(duration,strength)
+}
+
+class CameraDrag {
+    - panSpeed
+    - bounds
+    - useBounds
+    + StartDrag()
+    + ContinueDrag()
+    + EndDrag()
+}
+
+class EndlessRunner {
+    - vbegin
+    - g
+    - velocity
+    - acceleration
+    - State enum
+    - t
+    - tmax
+}
+
+class Shooting {
+    - lifetime
+}
+
+class Background {
+    - Renderer bgBackground
+    - speed
+}
+
+class SceneSwitcher {
+    - nextSceneName
+    - spawner
+}
+
+
+	
+
+	
+
+```
