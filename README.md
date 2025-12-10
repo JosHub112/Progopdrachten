@@ -305,3 +305,6 @@ class SceneSwitcher {
 
 ![ezgif-75d548983100605b](https://github.com/user-attachments/assets/94446952-1f43-45df-9127-c695027c6842)
 
+
+[Delgates](Assets/Scripts/M6/Delegates)
+
