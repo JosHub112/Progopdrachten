@@ -73,7 +73,7 @@ https://docs.google.com/document/d/1bXBO7FFVSXiE5CwlVJwobjQiokGVwQ9dZ05z7R6Xghg/
 
 
 
-## Opdracht  10 Class diagram Towerdefense
+## Opdracht  10 || Class diagram Towerdefense
 
 ```mermaid
 
@@ -297,3 +297,11 @@ class SceneSwitcher {
 	
 
 ```
+
+
+## Opdracht 3 bijna af
+
+## Opdracht 4 || delegates gebruiken
+
+![ezgif-75d548983100605b](https://github.com/user-attachments/assets/94446952-1f43-45df-9127-c695027c6842)
+
