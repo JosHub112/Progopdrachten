@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class KeyCard : Item
+public class KeyCard : ItemBase
 {
     public KeyCard()
     {

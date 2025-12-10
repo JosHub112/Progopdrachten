@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Guns : Item
+public class Guns : ItemBase
 {
     public Guns()
     {

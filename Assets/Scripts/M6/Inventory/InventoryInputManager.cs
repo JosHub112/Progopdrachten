@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+public class InventoryInput : MonoBehaviour
 {
     [SerializeField] private InventorySystem inventorySystem;
 

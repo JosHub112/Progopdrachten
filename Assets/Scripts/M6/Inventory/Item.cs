@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class Item 
+public abstract class ItemBase
 {
     public string ItemName { get; protected set; }
 }

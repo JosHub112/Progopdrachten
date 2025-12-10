@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MediPack : Item
+public class MediPack : ItemBase
 {
     public MediPack()
     {

@@ -7,7 +7,7 @@ public class InventorySystem : MonoBehaviour
     [SerializeField] private int _worldGuns = 3;
     [SerializeField] private int _worldKeyCard = 2;
 
-    private List<Item> _inventory = new List<Item>();
+    private List<ItemBase> _inventory = new List<ItemBase>();
 
     public enum ItemType
     {
@@ -52,7 +52,7 @@ public class InventorySystem : MonoBehaviour
     // REMOVE ITEM
     public void RemoveItem(ItemType type)
     {
-        Item itemToRemove = null;
+        ItemBase itemToRemove = null;
 
         foreach (var item in _inventory)
         {
@@ -95,7 +95,7 @@ public class InventorySystem : MonoBehaviour
         int invGuns = 0;
         int invKeycards = 0;
 
-        foreach (Item item in _inventory)
+        foreach (ItemBase item in _inventory)
         {
             if (item is MediPack) invMedipacks++;
             if (item is Guns) invGuns++;
