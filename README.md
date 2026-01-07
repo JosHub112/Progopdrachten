@@ -308,3 +308,38 @@ class SceneSwitcher {
 
 [Delgates](Assets/Scripts/M6/Delegates)
 
+```Charp
+public bool IsPlayerReadyToAttack(Player player)
+{
+
+        if (player == null) return false;
+        if (!player.IsAlive) return false;
+        if (player.AttackCooldown > 0) return false; 
+        if (player.Target == null) return false;
+
+        if (!player.Target.IsAlive) return false;
+
+   
+    if (Vector3.Distance(player.transform.position, player.Target.transform.position) >= 5f)
+    {
+        return false;
+    }
+
+    bool hasManaAndWeapon
+        if (player.Mana >= 20 && player.HasEquippedWeapon("Sword"))
+    hasManaAndWeapon = true;
+    
+    bool hasHealthAndBuff
+        if (player.Health >= 50 && player.HasActiveBuff("Berserk"))
+        hasHealthAndBuff = true;
+
+        if (!hasManaAndWeapon || !hasHealthAndBuff)
+        
+     return true;
+    
+
+
+
+}
+```
+
