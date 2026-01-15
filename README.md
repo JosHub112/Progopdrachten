@@ -345,7 +345,8 @@ public bool IsPlayerReadyToAttack(Player player)
 
 ## Abstractions
 
-![ahfg6q](https://github.com/user-attachments/assets/93dbc034-3e34-400b-bb01-fc7d1e242271)
+
+![ahfggb](https://github.com/user-attachments/assets/b15cf525-8f94-425c-a398-9a9443007e75)
 
 
 
