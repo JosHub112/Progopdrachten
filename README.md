@@ -343,3 +343,13 @@ public bool IsPlayerReadyToAttack(Player player)
 }
 ```
 
+## Abstractions
+
+
+![ahfggb](https://github.com/user-attachments/assets/b15cf525-8f94-425c-a398-9a9443007e75)
+
+
+
+[Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Abstraction)
+
+
