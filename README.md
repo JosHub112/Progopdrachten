@@ -313,6 +313,30 @@ class SceneSwitcher {
 
 [Delgates](Assets/Scripts/M6/Delegates)
 
+
+
+## Abstractions
+
+
+![ahfggb](https://github.com/user-attachments/assets/b15cf525-8f94-425c-a398-9a9443007e75)
+
+
+
+[Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Abstraction)
+
+
+
+## Polymorfisme
+
+![ahmkx0](https://github.com/user-attachments/assets/674360de-efa7-4679-a9ff-07db39155d6c)
+
+
+
+[Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Polymorfisme)
+
+
+## Early returns
+
 ```Charp
 public bool IsPlayerReadyToAttack(Player player)
 {
@@ -348,21 +372,3 @@ public bool IsPlayerReadyToAttack(Player player)
 }
 ```
 
-## Abstractions
-
-
-![ahfggb](https://github.com/user-attachments/assets/b15cf525-8f94-425c-a398-9a9443007e75)
-
-
-
-[Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Abstraction)
-
-
-
-## Polymorfisme
-
-![ahmkx0](https://github.com/user-attachments/assets/674360de-efa7-4679-a9ff-07db39155d6c)
-
-
-
-[Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Polymorfisme)
