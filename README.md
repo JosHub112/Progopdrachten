@@ -71,9 +71,12 @@ https://docs.google.com/document/d/1bXBO7FFVSXiE5CwlVJwobjQiokGVwQ9dZ05z7R6Xghg/
 
 # Progopdrachten M6
 
+## Opdracht 1 || Code Conventions
+
+[Code](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Code%20Conventions)
 
 
-## Opdracht  10 || Class diagram Towerdefense
+## Opdracht  2 || Class diagram Towerdefense
 
 ```mermaid
 
@@ -299,7 +302,9 @@ class SceneSwitcher {
 ```
 
 
-## Opdracht 3 bijna af
+## Opdracht 3 || Data Structures
+
+[Code](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Data%20Structure)
 
 ## Opdracht 4 || delegates gebruiken
 
@@ -357,5 +362,7 @@ public bool IsPlayerReadyToAttack(Player player)
 ## Polymorfisme
 
 ![ahmkx0](https://github.com/user-attachments/assets/674360de-efa7-4679-a9ff-07db39155d6c)
+
+
 
 [Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Polymorfisme)
