@@ -353,3 +353,9 @@ public bool IsPlayerReadyToAttack(Player player)
 [Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Abstraction)
 
 
+
+## Polymorfisme
+
+![ahmkx0](https://github.com/user-attachments/assets/674360de-efa7-4679-a9ff-07db39155d6c)
+
+[Scripts](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Polymorfisme)
