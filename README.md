@@ -75,8 +75,12 @@ https://docs.google.com/document/d/1bXBO7FFVSXiE5CwlVJwobjQiokGVwQ9dZ05z7R6Xghg/
 
 [Code](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Code%20Conventions)
 
+Ik heb een inventory system gemaakt met 3 items, waar je met keys dingen kan droppen en oppakken
 
 ## Opdracht  2 || Class diagram Towerdefense
+
+Dit is een mermaaid van me Towerdefence
+
 
 ```mermaid
 
@@ -304,9 +308,13 @@ class SceneSwitcher {
 
 ## Opdracht 3 || Data Structures
 
+Ik heb een inventory script gemaakt waar ik scriptable objects in kan doen,  
+
 [Code](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Data%20Structure)
 
 ## Opdracht 4 || delegates gebruiken
+
+Ik heb een score system gemaakt met een 3D blokje, met gebruik van delegates 
 
 ![ezgif-75d548983100605b](https://github.com/user-attachments/assets/94446952-1f43-45df-9127-c695027c6842)
 
@@ -317,6 +325,7 @@ class SceneSwitcher {
 
 ## Abstractions
 
+Ik heb nog een pickup system gemaakt met een 3D blokje die verschillende soorten pickups kan opakken met het gebruik van OOP abstraction
 
 ![ahfggb](https://github.com/user-attachments/assets/b15cf525-8f94-425c-a398-9a9443007e75)
 
@@ -328,6 +337,8 @@ class SceneSwitcher {
 
 ## Polymorfisme
 
+Ik heb een Battlemanager met enemies die je damage kunnen doen door op een knop te klikken en jij kan ze damage terug doen. 
+
 ![ahmkx0](https://github.com/user-attachments/assets/674360de-efa7-4679-a9ff-07db39155d6c)
 
 
@@ -336,6 +347,8 @@ class SceneSwitcher {
 
 
 ## Early returns
+
+De code had teveel if statements onder elkaar dus ik maakte er early returns van.
 
 ```Charp
 public bool IsPlayerReadyToAttack(Player player)
