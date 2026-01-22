@@ -73,6 +73,9 @@ https://docs.google.com/document/d/1bXBO7FFVSXiE5CwlVJwobjQiokGVwQ9dZ05z7R6Xghg/
 
 ## Opdracht 1 || Code Conventions
 
+![ai1jle](https://github.com/user-attachments/assets/77bd8664-3f41-4f50-8aa0-dce73609e2f5)
+
+
 [Code](https://github.com/JosHub112/Progopdrachten/tree/main/Assets/Scripts/M6/Code%20Conventions)
 
 Ik heb een inventory system gemaakt met 3 items, waar je met keys dingen kan droppen en oppakken
